@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yzq.android.experimentten.MainActivity">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/baidu_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true">
+    </com.baidu.mapapi.map.MapView>
+
+    <ToggleButton
+        android:id="@+id/toggle_position"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/toggle_setting"
+        android:checked="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:textOff=""
+        android:textOn=""/>
+</FrameLayout>
